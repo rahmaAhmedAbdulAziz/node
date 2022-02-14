@@ -1,0 +1,19 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nodelab.js",
+  "scripts": {
+    "start": "nodemon nodejs.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rahma",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
